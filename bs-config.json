@@ -1,0 +1,8 @@
+{
+  "server": {
+    "baseDir": "."
+  },
+  "files": ["./**/*.{html,htm,css,js}"],
+  "open": false,
+  "ghostMode": false
+}

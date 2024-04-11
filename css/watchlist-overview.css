@@ -1,0 +1,25 @@
+.watchlist-container {
+    width: 70vw;
+    padding: 12px;
+    border-radius: 12px;
+    margin: 10px auto;
+    color: white;
+    background-color: lightgrey;
+}
+
+#watchlist-input-form {
+    margin-bottom: 20px;
+}
+
+#watchlist-input-button-container {
+    display: flex;
+    gap: 4px;
+}
+
+#add-btn {
+    flex: 1;
+}
+
+#reset-btn {
+    flex: 1
+}

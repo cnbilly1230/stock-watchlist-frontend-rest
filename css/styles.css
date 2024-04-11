@@ -1,0 +1,17 @@
+@import "modal.css";
+
+main {
+    background: linear-gradient(0deg, rgba(200, 200, 200, 0.8), rgba(200, 200, 200, 0.8)), url("../images/splash.jpg");
+    background-position: center;
+    background-size: cover;
+}
+
+#signup-btn:hover {
+    border-color: lightseagreen;
+    background-color: lightseagreen;
+}
+
+#login-btn:hover {
+    border-color: lightseagreen;
+    background-color: lightseagreen;
+}

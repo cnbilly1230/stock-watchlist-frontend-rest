@@ -1,0 +1,55 @@
+.input-group {
+    height: 40px;
+}
+
+#add-btn {
+    width: 100px;
+}
+
+.list-group-item {
+    display: block;
+}
+
+.suggestion-list-group-item:hover {
+    background-color: #e8e8e8;
+}
+
+.watchlist-group-item:hover {
+    background-color: #7782f9;
+}
+
+#suggestions-list {
+    position: absolute;
+    top: 40px;
+    height: 200px;
+    width: 100%;
+    z-index: 99;
+    overflow: auto;
+}
+
+table.mt-3.table.table-hover {
+    margin-bottom: 0;
+}
+
+th {
+    text-align: center;
+}
+
+td {
+    text-align: center;
+}
+
+.highlight {
+    background-color: gold;
+    animation: highlighting 2s infinite;
+}
+
+@keyframes highlighting {
+    from {
+        background-color: gold;
+    }
+
+    to {
+        background-color: yellow;
+    }
+}
